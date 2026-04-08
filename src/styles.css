@@ -1,0 +1,123 @@
+:root {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: #14213d;
+  background: radial-gradient(circle at 20% 10%, #d7f9ff, #f5f7fa 50%, #eaf2ff);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #d6e0f5;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(20, 33, 61, 0.08);
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.warn {
+  color: #9b2226;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  flex: 1;
+  min-width: 220px;
+  border: 1px solid #bed0ea;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+button {
+  border: none;
+  background: #0d3b66;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #6c8098;
+  cursor: not-allowed;
+}
+
+.preview {
+  margin-top: 12px;
+  max-width: 260px;
+  border-radius: 8px;
+  border: 1px solid #d4deef;
+}
+
+.chat-box {
+  margin-top: 10px;
+  max-height: 220px;
+  overflow: auto;
+  border: 1px solid #d5e0f1;
+  border-radius: 10px;
+  padding: 10px;
+  background: #f9fbff;
+}
+
+.debug-log {
+  margin-top: 10px;
+  max-height: 220px;
+  overflow: auto;
+  border: 1px solid #d5e0f1;
+  border-radius: 10px;
+  padding: 10px;
+  background: #f9fbff;
+  font-family: Consolas, "SF Mono", Menlo, monospace;
+  font-size: 12px;
+}
+
+.debug-log p {
+  margin: 0 0 6px 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.canvas {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 540px;
+  background: #0f172a;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
