@@ -4,7 +4,7 @@
 
 A frontend-only TypeScript/React app that runs five AI capabilities entirely in the browser — no server, no API key, no installation. Everything executes on your local GPU via WebGPU.
 
-https://github.com/user-attachments/assets/demo_compressed.mp4
+https://github.com/user-attachments/assets/77ef50d4-a3f0-4d88-9403-da64c3440d70
 
 ---
 
